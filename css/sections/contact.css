@@ -1,0 +1,39 @@
+.contact {
+  margin-left: 0;
+}
+
+.contact-list-mobile {
+  list-style: none;
+  margin-top: 1rem;
+  display: flex;
+  margin: auto;
+}
+
+.contact-list {
+  list-style: none;
+  padding-top: 30px;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+}
+
+.contact-list i {
+  color: var(--text-main);
+  width: 20px;
+  text-align: center;
+}
+
+.contact-list a,
+.contact-list-mobile a {
+  text-decoration: none;
+  color: var(--text-main);
+}
+
+.contact-list a:hover {
+  color: var(--accent);
+}

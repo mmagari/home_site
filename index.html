@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  </head>
+
+  <body>
+    <header>
+      <div class="overlay" onclick="hideSidebar()"></div>
+       <ul class="sidebar nav-link">
+          <li>
+            <button class="icon-btn" onclick="hideSidebar()" aria-label="Close menu">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+            </button>
+          </li>
+          <li><a href="#" data-section="home" class="glass-btn active" data-i18n="nav.home"></a></li>
+          <li><a href="#" data-section="aboutMe" class="glass-btn" data-i18n="nav.about"></a></li>
+          <li><a href="#" data-section="projects" class="glass-btn" data-i18n="nav.projects"></a></li>
+          <li><a href="#" data-section="contact" class="glass-btn" data-i18n="nav.contact"></a></li>
+          <li class="lang-switch">
+            <button data-lang="pl" class="lang-btn active">PL</button>
+            <span class="lang-sep">|</span>
+            <button data-lang="en" class="lang-btn">EN</button>
+          </li>
+          <span class="contact-list-mobile">
+              <a href="mailto:jaroslaw-mankiewicz@wp.pl"><i class="fa-solid fa-envelope"></i></a>
+              <a href="https://www.linkedin.com/in/jaros%C5%82aw-mankiewicz-7048353ab/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/mmagari" target="_blank"><i class="fa-brands fa-github"></i></a>
+          </span>
+        </ul>
+      <nav class="glass">
+        <ul >
+          <li><span class="logo nav-link"><a href="#" data-section="home" class="name">Front-end developer in the making...</a></span></li>
+          <li class="hideOnMobile nav-link"><a href="#" data-section="home" class="glass-btn active" data-i18n="nav.home"></a></li>
+          <li class="hideOnMobile nav-link"><a href="#" data-section="aboutMe" class="glass-btn " data-i18n="nav.about"></a></li>
+          <li class="hideOnMobile nav-link"><a href="#" data-section="projects" class="glass-btn" data-i18n="nav.projects"></a></li>
+          <li class="hideOnMobile nav-link"><a href="#" data-section="contact" class="glass-btn" data-i18n="nav.contact"></a></li>
+          <div class="lang-switch">
+            <button data-lang="pl" class="lang-btn">PL</button>
+            <span>|</span>
+            <button data-lang="en" class="lang-btn">EN</button>
+          </div>
+          <li class="menu-btn" onclick="event.stopPropagation(); showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="#0a323f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+      </nav>
+    </header>
+      <main class="main">
+        <section id="home" class="section active">
+          <div class="container glass home">
+            <img src="rocky.jpg" alt="Twoje zdjęcie" class="my-photo">
+            <div class="home-text">
+                <h1 class="title homeTitle">Frontend Developer</h1>
+                <p data-i18n="home.hello"></p>
+                <p data-i18n="home.description"></p>
+            </div>
+          </div>
+        </section>
+        <section id="projects" class="section">
+          <div class="container glass projects">
+
+            <div class="project-card glass">
+              
+              <div class="project-image">
+                <img src="project1.jpg" alt="Project preview">
+              </div>
+
+              <div class="project-content">
+                <h3 data-i18n="projects.number_1"></h3>
+                <p data-i18n="projects.description_1"></p>
+
+                <div class="project-tags">
+                  <span class="tag">VUE</span>
+                  <span class="tag">API</span>
+                  <span class="tag">HTML</span>
+                </div>
+
+                <div class="project-links">
+                  <a href="#" class="glass-btn small">Live</a>
+                  <a href="#" class="glass-btn small outline">GitHub</a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="project-card glass">
+  
+              <div class="project-image">
+                <img src="bogea.jpg" alt="Project preview">
+                <div class="project-badge" data-i18n="projects.project_badge"></div>
+              </div>
+
+              <div class="project-content">
+                <h3 data-i18n="projects.number_2"></h3>
+                <p data-i18n="projects.description_2"></p>
+
+                <div class="project-tags">
+                  <span class="tag">React</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">HTML</span>
+                </div>
+
+                <div class="project-links">
+                  <a href="#" class="glass-btn small">Live</a>
+                </div>
+              </div>
+
+            </div>
+
+
+
+   
+            <div class="project-card glass">
+  
+              <div class="project-image">
+                <img src="bogea.jpg" alt="Project preview">
+                <div class="project-badge" data-i18n="projects.project_badge"></div>
+              </div>
+
+              <div class="project-content">
+                <h3 data-i18n="projects.number_2"></h3>
+                <p data-i18n="projects.description_2"></p>
+
+                <div class="project-tags">
+                  <span class="tag">React</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">HTML</span>
+                </div>
+
+                <div class="project-links">
+                  <a href="#" class="glass-btn small">Live</a>
+                </div>
+              </div>
+
+            </div>
+            
+            <div class="project-card glass">
+  
+              <div class="project-image">
+                <img src="bogea.jpg" alt="Project preview">
+                <div class="project-badge" data-i18n="projects.project_badge"></div>
+              </div>
+
+              <div class="project-content">
+                <h3 data-i18n="projects.number_2"></h3>
+                <p data-i18n="projects.description_2"></p>
+
+                <div class="project-tags">
+                  <span class="tag">React</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">HTML</span>
+                </div>
+
+                <div class="project-links">
+                  <a href="#" class="glass-btn small">Live</a>
+                </div>
+              </div>
+
+            </div>    
+          </section>
+        <section id="contact" class="section">
+          <div class="container glass contact">
+            <h1 class="title" data-i18n="contact.title"></h1>
+            <p data-i18n="contact.description">
+            </p>
+            <ul class="contact-list">
+              <li><i class="fa-solid fa-envelope"></i><a href="mailto:jaroslaw-mankiewicz@wp.pl">jaroslaw-mankiewicz@wp.pl</a></li>
+              <li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/jaros%C5%82aw-mankiewicz-7048353ab/" target="_blank">LinkedIn</a></li>
+              <li><i class="fa-brands fa-github"></i><a href="https://github.com/mmagari" target="_blank">GitHub</a></li>
+            </ul>
+          </div>
+        </section>
+        <section id="aboutMe" class="section">
+          <div class=" container glass aboutMe">
+            <h1 class="title aboutMeTitle" data-i18n="aboutMe.title"></h1>
+            <img src="work.jpg" alt="Twoje zdjęcie" class="aboutMeImage">
+            <p data-i18n="aboutMe.description_p1"></p>
+            <p data-i18n="aboutMe.description_p2"></p>
+            <p data-i18n="aboutMe.description_p3"></p>
+            <p data-i18n="aboutMe.description_p4"></p>
+          </div>
+        </section>
+      </main>
+      <footer class="glass" data-i18n="footer.description">
+      </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

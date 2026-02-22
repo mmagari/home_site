@@ -1,0 +1,22 @@
+:root {
+  /* Background */
+  --bg-image: url(../../104.png);
+
+  /* Glass */
+  --glass-bg: rgba(255, 255, 255, 0.65);
+  --glass-border: rgba(255,255,255,0.6);
+  --glass-shadow:
+    0 10px 30px rgba(0,0,0,0.12),
+    inset 0 1px 0 rgba(255,255,255,0.6);
+
+  /* Text */
+  --text-main: rgb(10, 50, 63);
+
+  /* Accent */
+  --accent: #38bdf8;
+  --accent-strong: #0ea5e9;
+  
+  /*Nav*/
+  --nav-text: var(--text-main);
+  --nav-text-hover: var(--accent-strong);
+}
