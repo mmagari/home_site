@@ -38,7 +38,7 @@
 
 @media(max-width: 800px) {
   .logo {
-    font-size: 40px;
+    font-size: 1.35rem;
     margin-top: 0;
   }
   nav {
@@ -61,8 +61,7 @@
     margin-left: 0;
   }
   .home .title {
-    margin: auto;
-    padding-bottom: 1rem;
+    margin: 1.2rem auto;
   }
   .home {
     flex-direction: column;
@@ -71,6 +70,7 @@
   }
   .home p {
     padding: 0;
+    margin: 0.2rem 0;
   }
   .my-photo {
     width: 250px;
@@ -85,6 +85,10 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+  }
+  .aboutMe p{
+    padding: 0;
+    margin: 0.7rem 0;
   }
    .aboutMeImage {
     float: none;
