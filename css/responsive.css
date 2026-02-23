@@ -37,8 +37,8 @@
 }
 
 @media(max-width: 800px) {
-  .logo {
-    font-size: 1.35rem;
+  .logo a{
+    font-size: 1.1rem;
     margin-top: 0;
   }
   nav {
@@ -108,6 +108,9 @@
 @media(max-width: 400px) {
   .sidebar{
     width: 100%;
+  }
+  .logo a{
+    white-space: wrap;
   }
 }
 
