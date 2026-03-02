@@ -11,6 +11,9 @@
   gap: 5px;
   flex-direction: column;
   text-align: justify;
+  -webkit-hyphens: auto; /* Safari */
+  -ms-hyphens: auto;     /* IE/Edge */
+  hyphens: auto;  
   text-justify: inter-word;
 }
 

@@ -20,15 +20,18 @@ const translations = {
       description_p4: "I’m highly motivated, eager to learn, and open to feedback. I’m looking for a supportive team and real project experience where I can develop as a Frontend Developer and contribute meaningful value from day one.",
     },
     projects: {
-      project_badge: "Newest one",
-      number_1: "Weather App",
-      description_1: "Responsive weather application using OpenWeather API. Built with VUE and modern UI practices.",
-      number_2: "BOGEA | FORM studio",
-      description_2: "Responsive Website. Built with React and modern UI practices.",
-      number_3: "Project name",
-      description_3: "Short project 3 description",
-      number_4: "Project name",
-      description_4: "Short project 4 description",
+      project_badge: "Latest project",
+      number_1: "Weather application",
+      description_1: "Real-time weather app using the OpenWeather API.",
+
+      number_2: "Bogea | Form studio",
+      description_2: "Responsive portfolio website built with React and modern minimal UI.",
+
+      number_3: "TO-DO List",
+      description_3: "Simple task management app with add and delete functionality.",
+
+      number_4: "Pizza Website",
+      description_4: "Fast, lightweight website built with pure JavaScript."
     },
     contact: {
       title: "Let's talk",
@@ -66,13 +69,16 @@ const translations = {
   projects: {
     project_badge: "Najnowższy projekt",
     number_1: "Aplikacja pogodowa",
-    description_1: "Responsive weather application using OpenWeather API. Built with VUE and modern UI practices.",
+    description_1: "Aplikacja do sprawdzania pogody w czasie rzeczywistym, wykorzystująca API OpenWeather.",
+
     number_2: "Bogea | Form studio",
-    description_2: "Responsive Website. Built with React and modern UI practices.",
-    number_3: "Projekt 3 nazwa",
-    description_3: "Krótki opis 3 projektu",
-    number_4: "Projekt 4 nazwa",
-    description_4: "Krótki opis 4 projektu"
+    description_2: "Responsywna strona internetowa zawierająca porfolio. Zbudowana w React, z nowoczesnym i minimalistycznym UI.",
+
+    number_3: "TO-DO Lista",
+    description_3: "Prosta aplikacja do zarządzania codziennymi zadaniami, z wygodnym dodawaniem i usuwaniem pozycji.",
+
+    number_4: "Strona Pizzerii",
+    description_4: "Lekka, szybka strona internetowa stworzona w czystym JavaScript, z prostą prezentacją menu i oferty."
   },
   contact: {
     title: "Porozmawiajmy",

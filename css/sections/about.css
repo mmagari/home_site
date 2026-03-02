@@ -5,9 +5,13 @@
 .aboutMe p {
   margin: 1.5rem;
   text-align: justify;
+  -webkit-hyphens: auto; /* Safari */
+  -ms-hyphens: auto;     /* IE/Edge */
+  hyphens: auto;  
   text-justify: inter-word;
   opacity: 1;
   color: var(--text-primary);
+  word-break: break-word;
 }
 
 .aboutMeTitle {
