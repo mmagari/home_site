@@ -1,5 +1,6 @@
 .section {
   display: none;
+  min-height: 70vh;
 }
 
 .section.active {
